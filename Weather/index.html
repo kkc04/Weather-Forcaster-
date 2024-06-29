@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <!-- class app which contains whole html code -->
+        <div id="Navbar">
+            <!-- class navbar contains search box and search button and heading -->
+            <h2 id="heading"><span>Weather</span></h2>
+            <input type="text" id="submitText" placeholder="Search City"> <!-- submit text -->
+            <button id="submitOption"><img src="search.png"></button><!-- submit option -->
+        </div>
+        <!-- class navbar ends -->
+        <div class="error" style="display: none;">
+            <p>Invalid City Name</p>
+        </div>
+        <!-- error handling -->
+        <div class="weather">
+            <!-- which formats using js code -->
+            <div class="weather_detail">
+                <div class="weather_col">
+                    <h1 class="temp">22 °C</h1>
+                    <h2 class="city">North Guwahati</h2>
+                </div>
+                <img src="rainy.webp" class="weather-icon">
+
+            </div>
+            <div class="details">
+                <div class="humidity">
+                    
+                      <span>
+                            <img src="humidity.png">
+                            <p>50%</p>
+                        </span>
+                    
+                    
+                </div>
+                <div class="Wind">
+                     <span>
+                        <img src="wind.png">
+                        <p>15 km/hr</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div >
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
